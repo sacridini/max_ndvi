@@ -15,7 +15,7 @@ Export.image.toDrive({
   description: "max_ndvi_ts_rj", 
   folder: 'ee', 
   fileNamePrefix: "max_ndvi_ts_rj", 
-  region: ma,
+  region: roi,
   scale: 30, 
   crs: 'EPSG:4326', 
   maxPixels: 1e13
